@@ -24,6 +24,7 @@
     font-size: 1.2rem;
     text-align: center;
     font-weight: 600;
+    cursor: pointer;
   }
 
   header{
@@ -83,3 +84,116 @@
     margin-top: 70px;
     max-width: 100%;
   }
+
+  /* responsive media queries*/
+  /* mobile devices */
+  @media screen and (max-width: 576px) {
+    header{
+        padding: 50px;
+    }
+
+    header h3{
+        margin-bottom: 40px;
+    }
+
+
+    
+    nav{
+        flex-direction: column;
+    }
+  }
+
+  /* tablet and medium devices */
+
+  @media screen and(min-width: 576px) and (max-width: 960px) {
+    header{
+        padding: 50px;
+    }
+    nav{
+        flex-direction: column;
+    }
+    
+  }
+
+  
+
+  /* ============================= medium device e break hoye jay==========================*/
+
+
+  /*======================quick list part stars============================================*/
+
+  
+
+  main{
+    max-width: 1440px;
+    margin: 0 auto;
+  }
+
+  .teams-container{
+    display: flex;
+    align-items: center;        /* left-right* vertically center*/
+  }
+
+
+  .teams-img-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+
+  .teams-content{
+    padding-left: 70px;
+    padding-right: 70px;
+  }
+
+  .teams-title{
+    width: 468px;
+    font-size: 2.8rem;
+  }
+
+  .quick{
+    color: #727272;
+    font-weight: 500;
+  }
+
+  .our{
+    color: #131313;
+    font-weight: 700;
+  }
+
+  .features{
+    color: #FF900E;
+    font-weight: 700;
+  }
+
+  /*
+
+
+  .quick{
+    color: var(--Dark-03, #727272);
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+
+  .our{
+    color: #131313;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .features{
+    color: #FF900E;
+    font-family: Work Sans;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  */
+  
